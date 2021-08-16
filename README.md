@@ -14,7 +14,7 @@ Sit tight, because this might give you an aneurysm...
 1. Clone this repo to your computer, and in that folder create a new subfolder called `data`.
 2. Login to your course webpage in your web browser and go to the Zoom tab
 3. Right click --> inspect
-4. Find the **second** <!DOCTYPE html> present in the Inspect Element popout
+4. Find the **second** `<!DOCTYPE html>` present in the Inspect Element popout
 5. In the line *underneath* that (shown below), right click --> Copy --> Copy outerHTML (for Chromium-based web browsers e.g. Microsoft Edge)
 
 ![image](https://user-images.githubusercontent.com/24475790/129573715-f613b10c-53c6-40e2-ab3c-ac37a3999fec.png)
