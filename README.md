@@ -19,7 +19,7 @@ Sit tight, because this might give you an aneurysm...
 
 ![image](https://user-images.githubusercontent.com/24475790/129575168-24c68e90-697e-4c20-9e8c-c0849a42eea5.png)
 
-6. Within your newly created `data` subfolder create a new text file (e.g. `page1.txt`) and paste the contents in it.
+6. Within your newly created `data` subfolder create a new text file (e.g. `page1.txt`), paste the contents in it and save the file.
 7. In your computer's terminal, navigate to the cloned repo folder and run the `wrapper.py` Python script.
 Usage: `python wrapper.py -i "./data" -o "classes.csv"` where `-i` is the folder to read in with your html files, eg './data' and `-o` is the output csv file to store the results, defaults to classes.csv.
 
