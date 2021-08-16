@@ -16,7 +16,9 @@ Sit tight, because this might give you an aneurysm...
 3. Right click --> inspect
 4. Find the **second** <!DOCTYPE html> present in the Inspect Element popout
 5. In the line *underneath* that (shown below), right click --> Copy --> Copy outerHTML (for Chromium-based web browsers e.g. Microsoft Edge)
+
 ![image](https://user-images.githubusercontent.com/24475790/129573715-f613b10c-53c6-40e2-ab3c-ac37a3999fec.png)
+
 6. Within your newly created `data` subfolder create a new text file (e.g. `page1.txt`) and paste the contents in it.
 7. In your computer's terminal, navigate to the cloned repo folder and run the `wrapper.py` Python script.
 Usage: `python wrapper.py -i "./data" -o "classes.csv"` where `-i` is the folder to read in with your html files, eg './data' and `-o` is the output csv file to store the results, defaults to classes.csv.
