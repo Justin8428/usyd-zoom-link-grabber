@@ -23,8 +23,11 @@ Sit tight, because this might give you an aneurysm...
 7. In your computer's terminal, navigate to the cloned repo folder and run the `wrapper.py` Python script.
 Usage: `python wrapper.py -i "./data" -o "classes.csv"` where `-i` is the folder to read in with your html files, eg './data' and `-o` is the output csv file to store the results, defaults to classes.csv.
 
+
 ## What if Zoom has more than one page?
+
 ![image](https://user-images.githubusercontent.com/24475790/129574340-aea0008d-ac3a-4473-9ea7-bc9e9517bbbd.png)
+
 Repeat steps 3 to 6 for each page. Name each file sequentially alphabetically in the order you want them to be arranged in the final csv. (e.g. `page1.txt`, `page2.txt`, etc)
 
 ## Todo
